@@ -1,0 +1,10 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \\\"cd be && node index.js\\\" \\\"cd fe && npm start\\\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
